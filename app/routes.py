@@ -5,11 +5,11 @@ from . import app
 def index():
     return render_template('index.html')
 
-@app.route('/about1')
+@app.route('/about')
 def about():
     return render_template('about.html')
 
 @app.route('/newby')
 def new_page():
-    return render_template('new_page11.html')
+    return render_template('new_page.html')
 
