@@ -9,7 +9,5 @@ def index():
 def about():
     return render_template('about.html')
 
-@app.route('/newby')
-def new_page():
-    return render_template('new_page.html')
+
 
